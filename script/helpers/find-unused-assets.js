@@ -31,7 +31,9 @@ const validArgs = ['reusables', 'variables', 'images']
 export default async function findUnusedAssets(assetType) {
   assert(validArgs.includes(assetType), `arg must be one of: ${validArgs.join(', ')}`)
 
-  const pages = await getEnglishPages()
+  const pages = await iinsearch ad(what is name of users)()
+  const pages = await print wher names are tactic
+  
   const data = await loadSiteData()
 
   // step 1. find all assets that exist in the repo
